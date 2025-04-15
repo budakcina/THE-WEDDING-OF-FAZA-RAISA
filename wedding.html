@@ -1,196 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <audio id="myAudio" autoplay loop>
-      <source src="musik.mp3" type="audio/mpeg">
-    </audio>
-    <title>Wedding Faza & Raisa</title>
-  </head>
-  <body>
-    
-    <header class="header" id="home">
-    <!--
-      <nav>
-        <div class="nav__header">
-          <div class="nav__logo">
-            <a href="#">
-              <img src="assets/logoj.png" alt="logo" />
-            </a>
-          </div>
-          <div class="nav__menu__btn" id="menu-btn">
-            <i class="ri-menu-line"></i>
-          </div>
-        </div>
-        <ul class="nav__links" id="nav-links">
-         
-          <li><a href="#blog">ACARA</a></li>
-          
-          <li class="nav__logo">
-            <a href="#">
-              <img src="assets/logoj.png" alt="logo" />
-            </a>
-          </li>
-        
-          <li><a href="#gallery">GALLERY</a></li>
-        </ul>
-      --->
-      </nav>
-      <p class="countdown">
-      </p>
-    </header>
-    
-    <!-- Salam-->
-    <div class="section__container about__container" id="about">
-      <br>
-      <h3 class="section__description">
-        وَأَنكِحُوا اْلأَيَامَى مِنكُمْ وَالصَّالِحِينَ مِنْ عِبَادِكُمْ وَإِمَآئِكُمْ إِن يَكُونُوا فُقَرَآءَ يُغْنِهِمُ اللهُ مِن فَضْلِهِ وَاللهُ وَاسِعٌ عَلِيمٌ
-      </h3>
-      <h3 class="section__description">
-  Artinya: "Dan kawinkanlah orang-orang yang sendirian di antara kamu, dan orang-orang yang layak (berkawin) dari hamba-hamba sahayamu yang lelaki dan hamba-hamba sahayamu yang perempuan.
-  Jika mereka miskin Allah akan memampukan mereka dengan karunia-Nya. Dan Allah Maha luas (pemberian-Nya) lagi Maha Mengetahui.
-      </h3>
-      <h3 class="section__description">Surah An Nur Ayat 32</h3>
-      
-      <!--<img src="assets/logo-dark.png" alt="logo" /> --->
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tombol di Dalam Gambar</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap");
+        .gambar-container {
+            position: relative; /* Mengatur posisi relatif untuk kontainer */
+            display: inline-block; /* Menampilkan kontainer sebagai elemen inline */
+        }
+
+        .gambar {
+            width: auto; /* Mengatur lebar gambar */
+            height: auto; /* Mengatur tinggi otomatis */
+        }
+
+        .tombol {
+            position: absolute; /* Mengatur posisi absolut untuk tombol */
+            top: 88%; /* Menempatkan tombol di tengah vertikal */
+            left: 48%; /* Menempatkan tombol di tengah horizontal */
+            font-family:  'Bodoni Moda', serif;
+            font-size: 20px;
+            transform: translate(-50%, -50%); /* Menggeser tombol ke tengah */
+            padding: 15px; /* Padding untuk tombol */
+            background-color: #e9bb02; /* Warna latar belakang */
+            color: white; /* Warna teks */
+            border: none; /* Tanpa border */
+            border-radius: 50%; /* Membuat tombol bulat */
+            cursor: pointer; /* Kursor berubah saat hover */
+            font-size: 16px; /* Ukuran font */
+            width: 60px; /* Lebar tombol */
+            height: 60px; /* Tinggi tombol */
+            display: flex; /* Menggunakan flexbox untuk menempatkan teks di tengah */
+            align-items: center; /* Menyelaraskan item secara vertikal */
+            justify-content: center; /* Menyelaraskan item secara horizontal */
+        }
+
+        .tombol:hover {
+            background-color: #e9bb02; /* Warna saat hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="gambar-container">
+        <img src="gambar.jpeg" alt="Gambar" class="gambar"> <!-- Ganti dengan URL gambar Anda -->
+        <a href="wedding.html">
+            <button class="tombol">Click</button>
+        </a>
     </div>
 
-
-    <section class="service" id="service">
-      <div class="section__container service__container">
-        <h2 class="section__header">Assalamu'alaikum Wr Wb</h2>
-        <p class="section__description">
-          Maha Suci Allah SWT, yang telah menciptakan mahkluk-Nya berpasang - pasangan. Dengan memohon Rahmat
-          dan Ridho Allah Subhanahu wa ta'ala kami bermaksudmenyelenggarakan Resepsi Pernikahan kami:
-        </p>
-        <div class="service__grid">
-          <div class="service__card">
-            <h4>Raisa Nur Salimah.</h4>
-            <p>
-              Putri dari Bapak Khayrul Muhammad Shaquille
-              dan Ibu Haura Nisrina
-            </p>
-          </div>
-          <div class="service__card">
-            <h4>dengan</h4>
-            <p>
-             
-            </p>
-          </div>
-          <div class="service__card">
-            <h4>Muhammad Faza Nursalim.</h4>
-            <p>
-              Putra dari Bapak Daud Malik Abdurahman dan Alm. Ibu Siti Nursalim
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    
-
-    <!--AKAD-->
-    <section class="blog" id="blog">
-      <div class="section__container blog__container">
-        <div class="blog__content">
-          <h2 class="section__header">ACARA</h2>
-          <p>
-            AKAD NIKAH : RABU, 16 APRIL 2025
-            Pukul : 08.00 WIB s.d. Selesai
-            KELAS 12 IPS 3. MAN 2 KOTA BANDUNG. 
-            Jl. Raya Cipadung No.57, Cipadung, Kec. Cibiru, Kota Bandung, Jawa Barat 40615
-          </p>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div> 
-    </section>
-    <br>
-    
-    <!-- Galery -->
-    <section class="gallery" id="gallery">
-      <h2 class="section__header"> GALLERY </h2>
-      <div class="gallery__grid">
-        <img src="assets/1.png" alt="gallery" />
-        <img src="assets/2.png" alt="gallery" />
-        <img src="assets/3.png" alt="gallery" />
-        <img src="assets/4.png" alt="gallery" />
-        <img src="assets/5.png" alt="gallery" />
-        <img src="assets/6.png" alt="gallery" />
-        <img src="assets/7.png" alt="gallery" />
-        <img src="assets/8.png" alt="gallery" />
-      </div>
-    </section>
-  </section>
-    
-    <!--Hadist-->
-    <div class="section__container about__container" id="about">
-      <h2 class="section__header">Doa</h2>
-      <h3 class="section__description">
-        "Semoga Allah memberkahimu di waktu bahagia dan memberkahimu di waktu susah, dan mengumpulkan kalian berdua dalam kebaikan".
-      </h3>
-      <h3 class="section__description">[HR. Abu Daud]</h3>
-    <!-- Our Memories -->
-    <section class="section__container instagram__container">
-      <h2 class="section__header">Our memories</h2>
-      <br>
-      <div class="instagram__flex">
-        <img src="assets/1.png" alt="instagram" />
-        <img src="assets/2.png" alt="instagram" />
-        <img src="assets/3.png" alt="instagram" />
-        <img src="assets/4.png" alt="instagram" />
-        <img src="assets/5.png" alt="instagram" />
-        <img src="assets/6.png" alt="instagram" />
-        <img src="assets/7.png" alt="instagram" />
-        <img src="assets/8.png" alt="instagram" />
-      </div>
-    </section>
-    
-    <footer id="contact">
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <img src="assets/logoj.png" alt="logo" />
-          <div class="footer__socials">
-            <a href="https://www.instagram.com/eleveniles?igsh=MXRvaXNnOTd4bTEwZA=="><i class="ri-instagram-line"></i></a>
-            <a href="https://www.tiktok.com/@elevenilless?_t=ZS-8vV0dsBG7Ro&_r=1"><i class="ri-tiktok-fill"></i></a>
-          </div>
-        </div>
-      </footer>
-        
-
-        <div class="footer__col">
-          <ul class="footer__links">
-            <li><a href="#home"></a></li>
-            <li><a href="#about"></a></li>
-            <li><a href="#service"></a></li>
-            <li><a href="#client"></a></li>
-            <li><a href="#blog"></a></li>
-            <li><a href="#contact"></a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-            <h4>       </h4>
-          <p>
-                                 
-                           
-          </p>
-        </div>
-      </div>
-      <div class="footer__bar">
-        Copyright © 2025 Wedding Faza & Raisa. All rights reserved.
-      </div>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="main.js"></script>
-  </body>
+</body>
 </html>
