@@ -378,6 +378,10 @@ nav {
   border: 1px solid var(--white);
 }
 
+.instagram__container {
+  overflow: hidden;
+}
+
 
 .instagram__flex {
   margin-top: 2rem;
