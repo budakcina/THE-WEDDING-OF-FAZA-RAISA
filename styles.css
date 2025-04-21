@@ -385,12 +385,12 @@ nav {
 
 .instagram__flex {
   margin-top: 2rem;
-  
+  width: max-content;
   display: flex;
   align-items: center;
   gap: 1rem;
 
-  animation: scroll 20s linear infinite;
+  animation: scroll 20s ;
 }
 
 .instagram__flex img {
