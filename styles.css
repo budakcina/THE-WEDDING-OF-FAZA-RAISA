@@ -397,11 +397,7 @@ nav {
   max-width: 135px;
 }
 
-@keyframes scroll {
-  to {
-    transform: translateX(calc(-50% - 0.5rem));
-  }
-}
+
 
 .footer__container {
   display: grid;
