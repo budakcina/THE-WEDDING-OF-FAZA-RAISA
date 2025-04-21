@@ -399,7 +399,7 @@ nav {
 
 @keyframes scroll {
   to {
-    transform: translateX(calc(-100% - 0.5rem));
+    transform: translateX(calc(-10% - 0.5rem));
   }
 }
 
