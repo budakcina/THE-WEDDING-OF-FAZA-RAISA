@@ -385,7 +385,7 @@ nav {
 
 .instagram__flex {
   margin-top: 2rem;
-  width: max-content;
+  
   display: flex;
   align-items: center;
   gap: 1rem;
