@@ -390,7 +390,7 @@ nav {
   align-items: center;
   gap: 1rem;
 
-  animation: scroll 20s ;
+  animation: scroll 20s linear infinite;
 }
 
 .instagram__flex img {
